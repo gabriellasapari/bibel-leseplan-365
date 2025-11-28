@@ -7,41 +7,47 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-  <header class="app-header">
+  <header class="header">
     <h1>Bibel Leseplan – 1 Jahr</h1>
     <p class="subtitle">Ein Jahresplan für dein tägliches Bibellesen.</p>
   </header>
 
-  <main class="plan">
+  <main class="main">
+    <!-- Optional: Beschreibung zum Plan -->
     <section class="card">
       <p id="plan-description"></p>
     </section>
 
-    <section class="card" id="today-view">
+    <!-- HEUTE -->
+    <section class="card">
       <h2 id="day-title">Tag …</h2>
       <p id="day-info"></p>
 
       <div id="readings"></div>
 
-      <button id="mark-done-btn" class="primary-btn">
+      <button id="mark-done-btn" class="btn-primary">
         Als gelesen markieren
       </button>
-      <p id="status-text" class="status-text"></p>
+
+      <p id="status-text"></p>
     </section>
 
-    <section class="card" id="progress">
+    <!-- FORTSCHRITT -->
+    <section class="card">
       <h3>Dein Fortschritt</h3>
       <p id="progress-text"></p>
     </section>
   </main>
 
-  <footer class="app-footer">
-    <p>Für den Bibeltext benutzen wir die YouVersion Bible App (Lutherbibel 2017).</p>
+  <footer class="footer">
+    <p>
+      Für den Bibeltext benutzen wir die YouVersion Bible App (Lutherbibel 2017).
+    </p>
   </footer>
 
-  <script src="js/app.js" defer></script>
-
+  <!-- Script HARUS di bagian paling bawah body -->
+  <script src="js/app.js"></script>
 </body>
+
 </html>
 

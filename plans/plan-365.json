@@ -1075,7 +1075,770 @@
   "readings": { "morning": "Ps 51-54", "evening": "Apg 28,16-31" }
 },
 
-   
+{
+  "day": 214,
+  "title": "Tag 214",
+  "readings": { "morning": "Ps 55-57", "evening": "Röm 1" }
+},
+{
+  "day": 215,
+  "title": "Tag 215",
+  "readings": { "morning": "Ps 58-60", "evening": "Röm 2" }
+},
+{
+  "day": 216,
+  "title": "Tag 216",
+  "readings": { "morning": "Ps 61-63", "evening": "Röm 3" }
+},
+{
+  "day": 217,
+  "title": "Tag 217",
+  "readings": { "morning": "Ps 64-66", "evening": "Röm 4" }
+},
+{
+  "day": 218,
+  "title": "Tag 218",
+  "readings": { "morning": "Ps 67-68", "evening": "Röm 5" }
+},
+{
+  "day": 219,
+  "title": "Tag 219",
+  "readings": { "morning": "Ps 69-70", "evening": "Röm 6" }
+},
+{
+  "day": 220,
+  "title": "Tag 220",
+  "readings": { "morning": "Ps 71-72", "evening": "Röm 7" }
+},
+{
+  "day": 221,
+  "title": "Tag 221",
+  "readings": { "morning": "Ps 73-74", "evening": "Röm 8,1-21" }
+},
+{
+  "day": 222,
+  "title": "Tag 222",
+  "readings": { "morning": "Ps 75-77", "evening": "Röm 8,22-39" }
+},
+{
+  "day": 223,
+  "title": "Tag 223",
+  "readings": { "morning": "Ps 78", "evening": "Röm 9,1-15" }
+},
+{
+  "day": 224,
+  "title": "Tag 224",
+  "readings": { "morning": "Ps 79-81", "evening": "Röm 9,16-33" }
+},
+{
+  "day": 225,
+  "title": "Tag 225",
+  "readings": { "morning": "Ps 82-84", "evening": "Röm 10" }
+},
+{
+  "day": 226,
+  "title": "Tag 226",
+  "readings": { "morning": "Ps 85-87", "evening": "Röm 11,1-18" }
+},
+{
+  "day": 227,
+  "title": "Tag 227",
+  "readings": { "morning": "Ps 88-89", "evening": "Röm 11,19-36" }
+},
+{
+  "day": 228,
+  "title": "Tag 228",
+  "readings": { "morning": "Ps 90-92", "evening": "Röm 12" }
+},
+{
+  "day": 229,
+  "title": "Tag 229",
+  "readings": { "morning": "Ps 93-95", "evening": "Röm 13" }
+},
+{
+  "day": 230,
+  "title": "Tag 230",
+  "readings": { "morning": "Ps 96-98", "evening": "Röm 14" }
+},
+{
+  "day": 231,
+  "title": "Tag 231",
+  "readings": { "morning": "Ps 99-102", "evening": "Röm 15,1-21" }
+},
+{
+  "day": 232,
+  "title": "Tag 232",
+  "readings": { "morning": "Ps 103-104", "evening": "Röm 15,22-33" }
+},
+{
+  "day": 233,
+  "title": "Tag 233",
+  "readings": { "morning": "Ps 105-106", "evening": "Röm 16" }
+},
+{
+  "day": 234,
+  "title": "Tag 234",
+  "readings": { "morning": "Ps 107-108", "evening": "1Kor 1" }
+},
+{
+  "day": 235,
+  "title": "Tag 235",
+  "readings": { "morning": "Ps 109-111", "evening": "1Kor 2" }
+},
+{
+  "day": 236,
+  "title": "Tag 236",
+  "readings": { "morning": "Ps 112-114", "evening": "1Kor 3" }
+},
+{
+  "day": 237,
+  "title": "Tag 237",
+  "readings": { "morning": "Ps 115-118", "evening": "1Kor 4" }
+},
+{
+  "day": 238,
+  "title": "Tag 238",
+  "readings": { "morning": "Ps 119,1-24", "evening": "1Kor 5" }
+},
+{
+  "day": 239,
+  "title": "Tag 239",
+  "readings": { "morning": "Ps 119,25-48", "evening": "1Kor 6" }
+},
+{
+  "day": 240,
+  "title": "Tag 240",
+  "readings": { "morning": "Ps 119,49-72", "evening": "1Kor 7,1-24" }
+},
+{
+  "day": 241,
+  "title": "Tag 241",
+  "readings": { "morning": "Ps 119,73-96", "evening": "1Kor 7,25-40" }
+},
+{
+  "day": 242,
+  "title": "Tag 242",
+  "readings": { "morning": "Ps 119,97-120", "evening": "1Kor 8" }
+},
+{
+  "day": 243,
+  "title": "Tag 243",
+  "readings": { "morning": "Ps 119,121-144", "evening": "1Kor 9" }
+},
+{
+  "day": 244,
+  "title": "Tag 244",
+  "readings": { "morning": "Ps 119,145-176", "evening": "1Kor 10,1-13" }
+},
+
+   {
+  "day": 245,
+  "title": "Tag 245",
+  "readings": { "morning": "Ps 120-122", "evening": "1Kor 10,14-33" }
+},
+{
+  "day": 246,
+  "title": "Tag 246",
+  "readings": { "morning": "Ps 123-125", "evening": "1Kor 11,1-22" }
+},
+{
+  "day": 247,
+  "title": "Tag 247",
+  "readings": { "morning": "Ps 126-128", "evening": "1Kor 11,23-34" }
+},
+{
+  "day": 248,
+  "title": "Tag 248",
+  "readings": { "morning": "Ps 129-131", "evening": "1Kor 12" }
+},
+{
+  "day": 249,
+  "title": "Tag 249",
+  "readings": { "morning": "Ps 132-134", "evening": "1Kor 13" }
+},
+{
+  "day": 250,
+  "title": "Tag 250",
+  "readings": { "morning": "Ps 135-136", "evening": "1Kor 14,1-20" }
+},
+{
+  "day": 251,
+  "title": "Tag 251",
+  "readings": { "morning": "Ps 137-139", "evening": "1Kor 14,21-40" }
+},
+{
+  "day": 252,
+  "title": "Tag 252",
+  "readings": { "morning": "Ps 140-142", "evening": "1Kor 15,1-34" }
+},
+{
+  "day": 253,
+  "title": "Tag 253",
+  "readings": { "morning": "Ps 143-145", "evening": "1Kor 15,35-58" }
+},
+{
+  "day": 254,
+  "title": "Tag 254",
+  "readings": { "morning": "Ps 146-147", "evening": "1Kor 16" }
+},
+{
+  "day": 255,
+  "title": "Tag 255",
+  "readings": { "morning": "Ps 148-150", "evening": "2Kor 1" }
+},
+{
+  "day": 256,
+  "title": "Tag 256",
+  "readings": { "morning": "Spr 1-2", "evening": "2Kor 2" }
+},
+{
+  "day": 257,
+  "title": "Tag 257",
+  "readings": { "morning": "Spr 3-4", "evening": "2Kor 3" }
+},
+{
+  "day": 258,
+  "title": "Tag 258",
+  "readings": { "morning": "Spr 5-7", "evening": "2Kor 4" }
+},
+{
+  "day": 259,
+  "title": "Tag 259",
+  "readings": { "morning": "Spr 8-9", "evening": "2Kor 5" }
+},
+{
+  "day": 260,
+  "title": "Tag 260",
+  "readings": { "morning": "Spr 10-11", "evening": "2Kor 6" }
+},
+{
+  "day": 261,
+  "title": "Tag 261",
+  "readings": { "morning": "Spr 12-13", "evening": "2Kor 7" }
+},
+{
+  "day": 262,
+  "title": "Tag 262",
+  "readings": { "morning": "Spr 14-15", "evening": "2Kor 8" }
+},
+{
+  "day": 263,
+  "title": "Tag 263",
+  "readings": { "morning": "Spr 16-17", "evening": "2Kor 9" }
+},
+{
+  "day": 264,
+  "title": "Tag 264",
+  "readings": { "morning": "Spr 18-19", "evening": "2Kor 10" }
+},
+{
+  "day": 265,
+  "title": "Tag 265",
+  "readings": { "morning": "Spr 20-21", "evening": "2Kor 11,1-15" }
+},
+{
+  "day": 266,
+  "title": "Tag 266",
+  "readings": { "morning": "Spr 22-23", "evening": "2Kor 11,16-33" }
+},
+{
+  "day": 267,
+  "title": "Tag 267",
+  "readings": { "morning": "Spr 24-25", "evening": "2Kor 12" }
+},
+{
+  "day": 268,
+  "title": "Tag 268",
+  "readings": { "morning": "Spr 26-27", "evening": "2Kor 13" }
+},
+{
+  "day": 269,
+  "title": "Tag 269",
+  "readings": { "morning": "Spr 28-29", "evening": "Gal 1" }
+},
+{
+  "day": 270,
+  "title": "Tag 270",
+  "readings": { "morning": "Spr 30-31", "evening": "Gal 2" }
+},
+{
+  "day": 271,
+  "title": "Tag 271",
+  "readings": { "morning": "Pred 1-3", "evening": "Gal 3" }
+},
+{
+  "day": 272,
+  "title": "Tag 272",
+  "readings": { "morning": "Pred 4-6", "evening": "Gal 4" }
+},
+{
+  "day": 273,
+  "title": "Tag 273",
+  "readings": { "morning": "Pred 7-9", "evening": "Gal 5" }
+},
+{
+  "day": 274,
+  "title": "Tag 274",
+  "readings": { "morning": "Pred 10-12", "evening": "Gal 6" }
+},
+
+   {
+  "day": 275,
+  "title": "Tag 275",
+  "readings": { "morning": "Hld 1-3", "evening": "Eph 1" }
+},
+{
+  "day": 276,
+  "title": "Tag 276",
+  "readings": { "morning": "Hld 4-5", "evening": "Eph 2" }
+},
+{
+  "day": 277,
+  "title": "Tag 277",
+  "readings": { "morning": "Hld 6-8", "evening": "Eph 3" }
+},
+{
+  "day": 278,
+  "title": "Tag 278",
+  "readings": { "morning": "Jes 1-2", "evening": "Eph 4" }
+},
+{
+  "day": 279,
+  "title": "Tag 279",
+  "readings": { "morning": "Jes 3-4", "evening": "Eph 5" }
+},
+{
+  "day": 280,
+  "title": "Tag 280",
+  "readings": { "morning": "Jes 5-6", "evening": "Eph 6" }
+},
+{
+  "day": 281,
+  "title": "Tag 281",
+  "readings": { "morning": "Jes 7-9", "evening": "Phil 1" }
+},
+{
+  "day": 282,
+  "title": "Tag 282",
+  "readings": { "morning": "Jes 10-11", "evening": "Phil 2" }
+},
+{
+  "day": 283,
+  "title": "Tag 283",
+  "readings": { "morning": "Jes 12-14", "evening": "Phil 3" }
+},
+{
+  "day": 284,
+  "title": "Tag 284",
+  "readings": { "morning": "Jes 15-16", "evening": "Phil 4" }
+},
+{
+  "day": 285,
+  "title": "Tag 285",
+  "readings": { "morning": "Jes 17-19", "evening": "Kol 1" }
+},
+{
+  "day": 286,
+  "title": "Tag 286",
+  "readings": { "morning": "Jes 20-22", "evening": "Kol 2" }
+},
+{
+  "day": 287,
+  "title": "Tag 287",
+  "readings": { "morning": "Jes 23-25", "evening": "Kol 3" }
+},
+{
+  "day": 288,
+  "title": "Tag 288",
+  "readings": { "morning": "Jes 26-27", "evening": "Kol 4" }
+},
+{
+  "day": 289,
+  "title": "Tag 289",
+  "readings": { "morning": "Jes 28-29", "evening": "1Thess 1" }
+},
+{
+  "day": 290,
+  "title": "Tag 290",
+  "readings": { "morning": "Jes 30-31", "evening": "1Thess 2" }
+},
+{
+  "day": 291,
+  "title": "Tag 291",
+  "readings": { "morning": "Jes 32-33", "evening": "1Thess 3" }
+},
+{
+  "day": 292,
+  "title": "Tag 292",
+  "readings": { "morning": "Jes 34-35", "evening": "1Thess 4" }
+},
+{
+  "day": 293,
+  "title": "Tag 293",
+  "readings": { "morning": "Jes 36-37", "evening": "1Thess 5" }
+},
+{
+  "day": 294,
+  "title": "Tag 294",
+  "readings": { "morning": "Jes 38-40", "evening": "2Thess 1" }
+},
+{
+  "day": 295,
+  "title": "Tag 295",
+  "readings": { "morning": "Jes 41-42", "evening": "2Thess 2" }
+},
+{
+  "day": 296,
+  "title": "Tag 296",
+  "readings": { "morning": "Jes 43-44", "evening": "2Thess 3" }
+},
+{
+  "day": 297,
+  "title": "Tag 297",
+  "readings": { "morning": "Jes 45-47", "evening": "1Tim 1" }
+},
+{
+  "day": 298,
+  "title": "Tag 298",
+  "readings": { "morning": "Jes 48-49", "evening": "1Tim 2" }
+},
+{
+  "day": 299,
+  "title": "Tag 299",
+  "readings": { "morning": "Jes 50-52", "evening": "1Tim 3" }
+},
+{
+  "day": 300,
+  "title": "Tag 300",
+  "readings": { "morning": "Jes 53-55", "evening": "1Tim 4" }
+},
+{
+  "day": 301,
+  "title": "Tag 301",
+  "readings": { "morning": "Jes 56-58", "evening": "1Tim 5" }
+},
+{
+  "day": 302,
+  "title": "Tag 302",
+  "readings": { "morning": "Jes 59-61", "evening": "1Tim 6" }
+},
+{
+  "day": 303,
+  "title": "Tag 303",
+  "readings": { "morning": "Jes 62-64", "evening": "2Tim 1" }
+},
+{
+  "day": 304,
+  "title": "Tag 304",
+  "readings": { "morning": "Jes 65-66", "evening": "2Tim 2" }
+},
+{
+  "day": 305,
+  "title": "Tag 305",
+  "readings": { "morning": "Jer 1-2", "evening": "2Tim 3" }
+},
+
+   {
+  "day": 306,
+  "title": "Tag 306",
+  "readings": { "morning": "Jer 3-4", "evening": "2Tim 4" }
+},
+{
+  "day": 307,
+  "title": "Tag 307",
+  "readings": { "morning": "Jer 5-6", "evening": "Tit 1" }
+},
+{
+  "day": 308,
+  "title": "Tag 308",
+  "readings": { "morning": "Jer 7-8", "evening": "Tit 2" }
+},
+{
+  "day": 309,
+  "title": "Tag 309",
+  "readings": { "morning": "Jer 9-10", "evening": "Tit 3" }
+},
+{
+  "day": 310,
+  "title": "Tag 310",
+  "readings": { "morning": "Jer 11-13", "evening": "Phlm" }
+},
+{
+  "day": 311,
+  "title": "Tag 311",
+  "readings": { "morning": "Jer 14-16", "evening": "Hebr 1" }
+},
+{
+  "day": 312,
+  "title": "Tag 312",
+  "readings": { "morning": "Jer 17-19", "evening": "Hebr 2" }
+},
+{
+  "day": 313,
+  "title": "Tag 313",
+  "readings": { "morning": "Jer 20-22", "evening": "Hebr 3" }
+},
+{
+  "day": 314,
+  "title": "Tag 314",
+  "readings": { "morning": "Jer 23-24", "evening": "Hebr 4" }
+},
+{
+  "day": 315,
+  "title": "Tag 315",
+  "readings": { "morning": "Jer 25-26", "evening": "Hebr 5" }
+},
+{
+  "day": 316,
+  "title": "Tag 316",
+  "readings": { "morning": "Jer 27-29", "evening": "Hebr 6" }
+},
+{
+  "day": 317,
+  "title": "Tag 317",
+  "readings": { "morning": "Jer 30-31", "evening": "Hebr 7" }
+},
+{
+  "day": 318,
+  "title": "Tag 318",
+  "readings": { "morning": "Jer 32-33", "evening": "Hebr 8" }
+},
+{
+  "day": 319,
+  "title": "Tag 319",
+  "readings": { "morning": "Jer 34-36", "evening": "Hebr 9" }
+},
+{
+  "day": 320,
+  "title": "Tag 320",
+  "readings": { "morning": "Jer 37-38", "evening": "Hebr 10,1-18" }
+},
+{
+  "day": 321,
+  "title": "Tag 321",
+  "readings": { "morning": "Jer 39-41", "evening": "Hebr 10,19-39" }
+},
+{
+  "day": 322,
+  "title": "Tag 322",
+  "readings": { "morning": "Jer 42-44", "evening": "Hebr 11,1-16" }
+},
+{
+  "day": 323,
+  "title": "Tag 323",
+  "readings": { "morning": "Jer 45-47", "evening": "Hebr 11,17-40" }
+},
+{
+  "day": 324,
+  "title": "Tag 324",
+  "readings": { "morning": "Jer 48-49", "evening": "Hebr 12" }
+},
+{
+  "day": 325,
+  "title": "Tag 325",
+  "readings": { "morning": "Jer 50-51", "evening": "Hebr 13" }
+},
+{
+  "day": 326,
+  "title": "Tag 326",
+  "readings": { "morning": "Jer 52", "evening": "Jak 1" }
+},
+{
+  "day": 327,
+  "title": "Tag 327",
+  "readings": { "morning": "Klgl 1-2", "evening": "Jak 2" }
+},
+{
+  "day": 328,
+  "title": "Tag 328",
+  "readings": { "morning": "Klgl 3-5", "evening": "Jak 3" }
+},
+{
+  "day": 329,
+  "title": "Tag 329",
+  "readings": { "morning": "Hes 1-3", "evening": "Jak 4" }
+},
+{
+  "day": 330,
+  "title": "Tag 330",
+  "readings": { "morning": "Hes 4-6", "evening": "Jak 5" }
+},
+{
+  "day": 331,
+  "title": "Tag 331",
+  "readings": { "morning": "Hes 7-9", "evening": "1Petr 1" }
+},
+{
+  "day": 332,
+  "title": "Tag 332",
+  "readings": { "morning": "Hes 10-12", "evening": "1Petr 2" }
+},
+{
+  "day": 333,
+  "title": "Tag 333",
+  "readings": { "morning": "Hes 13-15", "evening": "1Petr 3" }
+},
+{
+  "day": 334,
+  "title": "Tag 334",
+  "readings": { "morning": "Hes 16-17", "evening": "1Petr 4" }
+},
+{
+  "day": 335,
+  "title": "Tag 335",
+  "readings": { "morning": "Hes 18-19", "evening": "1Petr 5" }
+},
+
+  {
+  "day": 336,
+  "title": "Tag 336",
+  "readings": { "morning": "Hes 20-21", "evening": "2Petr 1" }
+},
+{
+  "day": 337,
+  "title": "Tag 337",
+  "readings": { "morning": "Hes 22-23", "evening": "2Petr 2" }
+},
+{
+  "day": 338,
+  "title": "Tag 338",
+  "readings": { "morning": "Hes 24-26", "evening": "2Petr 3" }
+},
+{
+  "day": 339,
+  "title": "Tag 339",
+  "readings": { "morning": "Hes 27-28", "evening": "1Joh 1" }
+},
+{
+  "day": 340,
+  "title": "Tag 340",
+  "readings": { "morning": "Hes 29-30", "evening": "1Joh 2" }
+},
+{
+  "day": 341,
+  "title": "Tag 341",
+  "readings": { "morning": "Hes 31-32", "evening": "1Joh 3" }
+},
+{
+  "day": 342,
+  "title": "Tag 342",
+  "readings": { "morning": "Hes 33-34", "evening": "1Joh 4" }
+},
+{
+  "day": 343,
+  "title": "Tag 343",
+  "readings": { "morning": "Hes 35-36", "evening": "1Joh 5" }
+},
+{
+  "day": 344,
+  "title": "Tag 344",
+  "readings": { "morning": "Hes 37-39", "evening": "2Joh" }
+},
+{
+  "day": 345,
+  "title": "Tag 345",
+  "readings": { "morning": "Hes 40-41", "evening": "3Joh" }
+},
+{
+  "day": 346,
+  "title": "Tag 346",
+  "readings": { "morning": "Hes 42-43", "evening": "Jud" }
+},
+{
+  "day": 347,
+  "title": "Tag 347",
+  "readings": { "morning": "Hes 44-45", "evening": "Offb 1" }
+},
+{
+  "day": 348,
+  "title": "Tag 348",
+  "readings": { "morning": "Hes 46-47", "evening": "Offb 2" }
+},
+{
+  "day": 349,
+  "title": "Tag 349",
+  "readings": { "morning": "Hes 48", "evening": "Offb 3" }
+},
+{
+  "day": 350,
+  "title": "Tag 350",
+  "readings": { "morning": "Dan 1-2", "evening": "Offb 4" }
+},
+{
+  "day": 351,
+  "title": "Tag 351",
+  "readings": { "morning": "Dan 3-4", "evening": "Offb 5" }
+},
+{
+  "day": 352,
+  "title": "Tag 352",
+  "readings": { "morning": "Dan 5-6", "evening": "Offb 6" }
+},
+{
+  "day": 353,
+  "title": "Tag 353",
+  "readings": { "morning": "Dan 7-8", "evening": "Offb 7" }
+},
+{
+  "day": 354,
+  "title": "Tag 354",
+  "readings": { "morning": "Dan 9-10", "evening": "Offb 8" }
+},
+{
+  "day": 355,
+  "title": "Tag 355",
+  "readings": { "morning": "Dan 11-12", "evening": "Offb 9" }
+},
+{
+  "day": 356,
+  "title": "Tag 356",
+  "readings": { "morning": "Hos 1-3", "evening": "Offb 10" }
+},
+{
+  "day": 357,
+  "title": "Tag 357",
+  "readings": { "morning": "Hos 4-6", "evening": "Offb 11" }
+},
+{
+  "day": 358,
+  "title": "Tag 358",
+  "readings": { "morning": "Hos 7-9", "evening": "Offb 12" }
+},
+{
+  "day": 359,
+  "title": "Tag 359",
+  "readings": { "morning": "Hos 10-12", "evening": "Offb 13" }
+},
+{
+  "day": 360,
+  "title": "Tag 360",
+  "readings": { "morning": "Hos 13-14", "evening": "Offb 14" }
+},
+{
+  "day": 361,
+  "title": "Tag 361",
+  "readings": { "morning": "Joel 1-3", "evening": "Offb 15" }
+},
+{
+  "day": 362,
+  "title": "Tag 362",
+  "readings": { "morning": "Amos 1-3", "evening": "Offb 16" }
+},
+{
+  "day": 363,
+  "title": "Tag 363",
+  "readings": { "morning": "Amos 4-6", "evening": "Offb 17" }
+},
+{
+  "day": 364,
+  "title": "Tag 364",
+  "readings": { "morning": "Amos 7-9", "evening": "Offb 18" }
+},
+{
+  "day": 365,
+  "title": "Tag 365",
+  "readings": { "morning": "Obad", "evening": "Offb 19-22" }
+} 
    
 ]
   

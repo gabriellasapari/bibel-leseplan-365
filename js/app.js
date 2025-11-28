@@ -20,7 +20,7 @@ const translations = {
     darkMode: 'Dunkles Design',
     calendarNote: 'Datumsanzeige folgt dem echten Kalender (Februar ohne 30/31).',
     planDescription:
-      'Begleitet dich durch das ganze Jahr: morgens ein Abschnitt aus dem Alten Testament, abends aus dem Neuen Testament.',
+      'Tunjukkan kesetiaanmu pada Tuhan Yesusng dengan membaca kebenaran firmannya setiap hari dalam bahasa jerman.',
     todayLabel: 'Heute',
     todaysReading: 'Lesungen heute',
     morning: 'Morgens',

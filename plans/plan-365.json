@@ -1,7 +1,168 @@
 {
-  "id": "bibeljahr-1",
-  "name": "Bibel Leseplan – 1 Jahr",
-  "description": "Struktur für einen 365-Tage-Bibelleseplan. Die eigentlichen Bibelstellen werden automatisch im Code erzeugt.",
+  "id": "gideon-365",
+  "name": "Gideon Bibelleseplan – 1 Jahr",
+  "description": "Bibel lesen in einem Jahr (Morgens & Abends) – Gideon Plan.",
   "start": "2026-01-01",
-  "totalDays": 365
+  "days": 
+ [
+  {
+    "day": 1,
+    "title": "Tag 1",
+    "readings": { "morning": "1Mo 1-2", "evening": "Mt 1" }
+  },
+  {
+    "day": 2,
+    "title": "Tag 2",
+    "readings": { "morning": "1Mo 3-5", "evening": "Mt 2" }
+  },
+  {
+    "day": 3,
+    "title": "Tag 3",
+    "readings": { "morning": "1Mo 6-8", "evening": "Mt 3" }
+  },
+  {
+    "day": 4,
+    "title": "Tag 4",
+    "readings": { "morning": "1Mo 9-11", "evening": "Mt 4" }
+  },
+  {
+    "day": 5,
+    "title": "Tag 5",
+    "readings": { "morning": "1Mo 12-14", "evening": "Mt 5,1-26" }
+  },
+  {
+    "day": 6,
+    "title": "Tag 6",
+    "readings": { "morning": "1Mo 15-17", "evening": "Mt 5,27-48" }
+  },
+  {
+    "day": 7,
+    "title": "Tag 7",
+    "readings": { "morning": "1Mo 18-19", "evening": "Mt 6" }
+  },
+  {
+    "day": 8,
+    "title": "Tag 8",
+    "readings": { "morning": "1Mo 20-22", "evening": "Mt 7" }
+  },
+  {
+    "day": 9,
+    "title": "Tag 9",
+    "readings": { "morning": "1Mo 23-24", "evening": "Mt 8" }
+  },
+  {
+    "day": 10,
+    "title": "Tag 10",
+    "readings": { "morning": "1Mo 25-26", "evening": "Mt 9,1-17" }
+  },
+  {
+    "day": 11,
+    "title": "Tag 11",
+    "readings": { "morning": "1Mo 27-28", "evening": "Mt 9,18-38" }
+  },
+  {
+    "day": 12,
+    "title": "Tag 12",
+    "readings": { "morning": "1Mo 29-30", "evening": "Mt 10,1-23" }
+  },
+  {
+    "day": 13,
+    "title": "Tag 13",
+    "readings": { "morning": "1Mo 31-32", "evening": "Mt 10,24-42" }
+  },
+  {
+    "day": 14,
+    "title": "Tag 14",
+    "readings": { "morning": "1Mo 33-35", "evening": "Mt 11" }
+  },
+  {
+    "day": 15,
+    "title": "Tag 15",
+    "readings": { "morning": "1Mo 36-37", "evening": "Mt 12,1-21" }
+  },
+  {
+    "day": 16,
+    "title": "Tag 16",
+    "readings": { "morning": "1Mo 38-40", "evening": "Mt 12,22-50" }
+  },
+  {
+    "day": 17,
+    "title": "Tag 17",
+    "readings": { "morning": "1Mo 41", "evening": "Mt 13,1-52" }
+  },
+  {
+    "day": 18,
+    "title": "Tag 18",
+    "readings": { "morning": "1Mo 42-43", "evening": "Mt 13,53-58" }
+  },
+  {
+    "day": 19,
+    "title": "Tag 19",
+    "readings": { "morning": "1Mo 44-45", "evening": "Mt 14,1-21" }
+  },
+  {
+    "day": 20,
+    "title": "Tag 20",
+    "readings": { "morning": "1Mo 46-48", "evening": "Mt 14,22-36" }
+  },
+  {
+    "day": 21,
+    "title": "Tag 21",
+    "readings": { "morning": "1Mo 49-50", "evening": "Mt 15,1-20" }
+  },
+  {
+    "day": 22,
+    "title": "Tag 22",
+    "readings": { "morning": "2Mo 1-3", "evening": "Mt 15,21-39" }
+  },
+  {
+    "day": 23,
+    "title": "Tag 23",
+    "readings": { "morning": "2Mo 4-6", "evening": "Mt 16" }
+  },
+  {
+    "day": 24,
+    "title": "Tag 24",
+    "readings": { "morning": "2Mo 7-8", "evening": "Mt 17" }
+  },
+  {
+    "day": 25,
+    "title": "Tag 25",
+    "readings": { "morning": "2Mo 9-10", "evening": "Mt 18,1-20" }
+  },
+  {
+    "day": 26,
+    "title": "Tag 26",
+    "readings": { "morning": "2Mo 11-12", "evening": "Mt 18,21-35" }
+  },
+  {
+    "day": 27,
+    "title": "Tag 27",
+    "readings": { "morning": "2Mo 13-15", "evening": "Mt 19,1-15" }
+  },
+  {
+    "day": 28,
+    "title": "Tag 28",
+    "readings": { "morning": "2Mo 16-18", "evening": "Mt 19,16-30" }
+  },
+  {
+    "day": 29,
+    "title": "Tag 29",
+    "readings": { "morning": "2Mo 19-21", "evening": "Mt 20,1-16" }
+  },
+  {
+    "day": 30,
+    "title": "Tag 30",
+    "readings": { "morning": "2Mo 22-24", "evening": "Mt 20,17-34" }
+  },
+  {
+    "day": 31,
+    "title": "Tag 31",
+    "readings": { "morning": "2Mo 25-26", "evening": "Mt 21,1-22" }
+  }
+]
+  
 }
+
+
+

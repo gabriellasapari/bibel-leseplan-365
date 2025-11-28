@@ -1,4 +1,19 @@
-/* Basic layout */
+/* ================================
+   Gideon Bibelleseplan – Styling
+   ================================ */
+
+:root {
+  --blue: #2563eb;
+  --blue-dark: #1d4ed8;
+  --bg: #f3f4f6;
+  --card-bg: #ffffff;
+  --text-main: #111827;
+  --text-muted: #6b7280;
+  --border-soft: rgba(148, 163, 184, 0.3);
+}
+
+/* Global */
+
 *,
 *::before,
 *::after {
@@ -7,217 +22,87 @@
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: #f3f4f6;
-  color: #111827;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui,
+    sans-serif;
+  background: var(--bg);
+  color: var(--text-main);
 }
 
-/* Header */
+/* Header atas */
+
 .app-header {
+  padding: 2.8rem 1.5rem 3.2rem;
   text-align: center;
-  padding: 2.5rem 1rem 2rem;
-  background: linear-gradient(135deg, #2563eb, #1e3a8a);
-  color: #f9fafb;
-}
-
-.app-header h1 {
-  margin: 0 0 0.5rem;
-  font-size: 2rem;
-  letter-spacing: 0.03em;
-}
-
-.app-header .subtitle {
-  margin: 0;
-  font-size: 0.95rem;
-  opacity: 0.95;
-}
-
-/* Main layout */
-.plan {
-  max-width: 720px;
-  margin: 1.5rem auto 3rem;
-  padding: 0 1rem;
-}
-
-/* Card style */
-.card {
-  background: #ffffff;
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 1rem;
-  border-radius: 0.9rem;
-  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
-}
-
-.card h2 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  font-size: 1.4rem;
-}
-
-.card h3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.5rem;
-  font-size: 1.05rem;
-}
-
-/* Text */
-#day-info {
-  margin-top: 0;
-  font-size: 0.95rem;
-  color: #6b7280;
-}
-
-#plan-description {
-  margin: 0;
-}
-
-.status-text {
-  margin-top: 0.75rem;
-  font-size: 0.9rem;
-}
-
-/* Readings list */
-#readings ul {
-  list-style: none;
-  padding-left: 0;
-  margin: 0.25rem 0 0.5rem;
-}
-
-#readings li {
-  margin-bottom: 0.25rem;
-}
-
-#readings strong {
-  font-weight: 600;
-}
-
-/* Button */
-.primary-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.45rem 0.9rem;
-  border-radius: 999px;
-  border: none;
-  background: #2563eb;
-  color: #f9fafb;
-  font-size: 0.9rem;
-  cursor: pointer;
-  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.35);
-  transition: transform 0.08s ease-out, box-shadow 0.08s ease-out, background 0.15s;
-}
-
-.primary-btn:hover {
-  background: #1d4ed8;
-  transform: translateY(-1px);
-  box-shadow: 0 10px 22px rgba(37, 99, 235, 0.45);
-}
-
-.primary-btn:active {
-  transform: translateY(0);
-  box-shadow: 0 5px 12px rgba(37, 99, 235, 0.35);
-}
-
-/* Progress */
-#progress-text {
-  margin-top: 0.25rem;
-  font-size: 0.95rem;
-}
-
-/* Footer */
-.app-footer {
-  text-align: center;
-  font-size: 0.8rem;
-  color: #6b7280;
-  margin-bottom: 2rem;
-  padding: 0 1rem;
-}
-
-/* Small screen tweaks */
-@media (max-width: 480px) {
-  .app-header h1 {
-    font-size: 1.6rem;
-  }
-
-  .card {
-    padding: 1rem 1.1rem;
-  }
-}
-
-/* ===== Mobile-friendly styling (iPhone & Android) ===== */
-
-/* Font & background umum */
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
-  background: #f3f4f6; /* abu-abu lembut */
-  color: #111827;      /* hampir hitam, enak dibaca */
-}
-
-/* Header biru + center */
-.app-header {
-  padding: 2.5rem 1.5rem 2rem;
-  text-align: center;
-  background: linear-gradient(135deg, #1d4ed8, #2563eb);
+  background: linear-gradient(135deg, var(--blue-dark), var(--blue));
   color: #ffffff;
-  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.35);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.45);
 }
 
 .app-header h1 {
-  margin: 0 0 0.5rem;
-  font-size: 2rem;
+  margin: 0 0 0.6rem;
+  font-size: 2.2rem;
   font-weight: 700;
+  letter-spacing: 0.01em;
 }
 
 .app-header .subtitle {
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 0.98rem;
   opacity: 0.9;
 }
 
 /* Container utama */
+
 .plan {
   max-width: 900px;
-  margin: -32px auto 40px;
-  padding: 0 1rem 2.5rem;
+  margin: -40px auto 3rem; /* naik sedikit ke header */
+  padding: 0 1.1rem 2.5rem;
 }
 
-/* Card putih */
+/* Card umum */
+
 .card {
-  background: #ffffff;
-  border-radius: 18px;
-  padding: 1.6rem 1.4rem;
-  margin-bottom: 1.25rem;
-  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.12);
-  border: 1px solid rgba(148, 163, 184, 0.3);
+  background: var(--card-bg);
+  border-radius: 20px;
+  padding: 1.75rem 1.6rem;
+  margin-bottom: 1.4rem;
+  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.15);
+  border: 1px solid var(--border-soft);
 }
 
-/* Judul hari */
+/* Card deskripsi plan (yang paling atas) */
+
+.card:first-of-type {
+  font-size: 0.98rem;
+  color: var(--text-muted);
+}
+
+/* Judul hari & tanggal */
+
 #day-title {
   margin: 0 0 0.25rem;
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   font-weight: 600;
-  color: #111827;
 }
 
-/* Info tanggal di bawah judul */
 #day-info {
-  margin: 0 0 1.25rem;
+  margin: 0 0 1.4rem;
   font-size: 0.95rem;
-  color: #6b7280;
+  color: var(--text-muted);
 }
 
-/* Bagian "Lesung heute" */
+/* "Lesung heute" & daftar bacaan */
+
 #readings h3 {
-  margin: 0 0 0.75rem;
-  font-size: 1rem;
+  margin: 0 0 0.9rem;
+  font-size: 1.05rem;
   font-weight: 600;
 }
 
 #readings ul {
   list-style: none;
+  margin: 0 0 1.1rem;
   padding-left: 0;
-  margin: 0;
 }
 
 #readings li {
@@ -225,86 +110,100 @@ body {
   font-size: 0.98rem;
 }
 
-/* Tombol utama */
+#readings strong {
+  font-weight: 600;
+  color: var(--blue-dark);
+}
+
+/* Tombol */
+
 button,
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.75rem 1.4rem;
+  padding: 0.8rem 1.6rem;
   border-radius: 999px;
   border: none;
   cursor: pointer;
   font-size: 0.95rem;
   font-weight: 600;
-  background: #2563eb;
+  background: var(--blue);
   color: #ffffff;
-  box-shadow: 0 6px 18px rgba(37, 99, 235, 0.45);
-  transition: transform 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+  box-shadow: 0 6px 18px rgba(37, 99, 235, 0.55);
+  transition: background 0.12s ease, transform 0.12s ease,
+    box-shadow 0.12s ease;
 }
 
 button:hover,
 .btn:hover {
-  background: #1d4ed8;
-  box-shadow: 0 8px 22px rgba(37, 99, 235, 0.6);
+  background: var(--blue-dark);
   transform: translateY(-1px);
+  box-shadow: 0 9px 24px rgba(37, 99, 235, 0.7);
 }
 
 button:active,
 .btn:active {
   transform: translateY(0);
-  box-shadow: 0 3px 10px rgba(37, 99, 235, 0.5);
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.6);
 }
 
-/* Checkbox + teks progres hari */
+/* Status hari */
+
 #day-status {
-  margin-top: 0.75rem;
+  margin-top: 0.9rem;
   font-size: 0.9rem;
   color: #16a34a;
 }
 
-/* Bagian "Dein Fortschritt" */
-.progress-title {
+/* Card "Dein Fortschritt" */
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+  font-size: 1.15rem;
   font-weight: 600;
-  margin-bottom: 0.35rem;
 }
 
-.progress-text {
-  font-size: 0.95rem;
-  color: #4b5563;
+.card p {
+  margin: 0.2rem 0;
 }
 
-/* Catatan kecil di bawah (YouVersion) */
+/* Footnote YouVersion di bawah */
+
 .footer-note {
+  max-width: 900px;
+  margin: 0 auto 2rem;
+  padding: 0 1.1rem;
   text-align: center;
   font-size: 0.8rem;
-  color: #6b7280;
-  margin: 1.5rem 1rem 2rem;
+  color: var(--text-muted);
 }
 
-/* ===== Responsif khusus HP ===== */
+/* Responsif HP */
+
 @media (max-width: 640px) {
   .app-header {
-    padding: 2rem 1.25rem 1.8rem;
+    padding: 2.2rem 1.25rem 2.4rem;
   }
 
   .app-header h1 {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
 
   .plan {
-    margin-top: -28px;
+    margin-top: -30px;
     padding: 0 0.9rem 2rem;
   }
 
   .card {
-    padding: 1.4rem 1.1rem;
-    border-radius: 16px;
+    padding: 1.4rem 1.2rem;
+    border-radius: 18px;
   }
 
   button,
   .btn {
     width: 100%;
-    margin-top: 0.75rem;
+    margin-top: 0.6rem;
   }
 }

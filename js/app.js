@@ -38,7 +38,8 @@ const translations = {
     pause: 'Jeda',
     volume: 'Lautstärke',
     footer:
-      'Für den Bibeltext benutzen wir die YouVersion Bible App (Lutherbibel 2017).'
+      'Für den Bibeltext benutzen wir die YouVersion Bible App (Lutherbibel 2017).',
+    downloadCta: 'YouVersion-App laden'
   },
   en: {
     eyebrow: 'Year plan',
@@ -68,7 +69,8 @@ const translations = {
     pause: 'Pause',
     volume: 'Volume',
     footer:
-      'Bible text links use the YouVersion Bible App (Luther Bible 2017).' 
+      'Bible text links use the YouVersion Bible App (Luther Bible 2017).',
+    downloadCta: 'Download YouVersion App'
   },
   id: {
     eyebrow: 'Rencana 1 tahun',
@@ -98,7 +100,8 @@ const translations = {
     pause: 'Jeda',
     volume: 'Volume',
     footer:
-      'Tautan Alkitab memakai YouVersion Bible App (Lutherbibel 2017).'
+      'Tautan Alkitab memakai YouVersion Bible App (Lutherbibel 2017).',
+    downloadCta: 'Unduh Aplikasi YouVersion'
   }
 };
 

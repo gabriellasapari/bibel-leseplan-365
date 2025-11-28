@@ -323,6 +323,38 @@ input[type='range'] {
   color: var(--muted);
 }
 
+.footer-content {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.download-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  background: var(--pill-bg);
+  color: var(--text);
+  text-decoration: none;
+  border: 1px solid var(--border);
+  font-weight: 600;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.download-link:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.download-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
 @media (max-width: 720px) {
   .controls {
     width: 100%;

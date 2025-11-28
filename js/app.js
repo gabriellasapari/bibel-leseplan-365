@@ -1,11 +1,85 @@
 // ---------------------------
-// Helper: Build YouVersion Link
+// Helper: Build YouVersion Link (mit Lutherbibel 2017)
 // ---------------------------
 function buildYouVersionLink(ref) {
   if (!ref || ref === '-' || typeof ref !== 'string') return '-';
 
-  const cleaned = ref.trim();
-  const query = encodeURIComponent(cleaned.replace(/\s+/g, ' '));
+  const cleaned = ref.trim(); // z.B. "1Mo 1-2"
+
+  // Erstes Wort = Buch, Rest = Kapitel/Verse
+  const parts = cleaned.split(/\s+/, 2);
+  let book = parts[0];
+  let rest = parts[1] || '';
+
+  // Mapping unserer Abkürzungen -> YouVersion-freundliche deutsche Namen
+  const bookMap = {
+    // AT
+    '1Mo': '1. Mose',
+    '2Mo': '2. Mose',
+    '3Mo': '3. Mose',
+    '4Mo': '4. Mose',
+    '5Mo': '5. Mose',
+    'Jos': 'Josua',
+    'Rich': 'Richter',
+    'Rut': 'Ruth',
+    '1Sam': '1. Samuel',
+    '2Sam': '2. Samuel',
+    '1Kön': '1. Könige',
+    '2Kön': '2. Könige',
+    '1Chr': '1. Chronik',
+    '2Chr': '2. Chronik',
+    'Esra': 'Esra',
+    'Neh': 'Nehemia',
+    'Est': 'Ester',
+    'Hiob': 'Hiob',
+    'Ps': 'Psalm',
+    'Spr': 'Sprüche',
+    'Pred': 'Prediger',
+    'Hld': 'Hohelied',
+    'Jes': 'Jesaja',
+    'Jer': 'Jeremia',
+    'Klgl': 'Klagelieder',
+    'Hes': 'Hesekiel',
+    'Dan': 'Daniel',
+    'Hos': 'Hosea',
+    'Joel': 'Joel',
+    'Amos': 'Amos',
+    'Obad': 'Obadja',
+
+    // NT
+    'Mt': 'Matthäus',
+    'Mk': 'Markus',
+    'Lk': 'Lukas',
+    'Joh': 'Johannes',
+    'Apg': 'Apostelgeschichte',
+    'Röm': 'Römer',
+    '1Kor': '1. Korinther',
+    '2Kor': '2. Korinther',
+    'Gal': 'Galater',
+    'Eph': 'Epheser',
+    'Phil': 'Philipper',
+    'Kol': 'Kolosser',
+    '1Thess': '1. Thessalonicher',
+    '2Thess': '2. Thessalonicher',
+    '1Tim': '1. Timotheus',
+    '2Tim': '2. Timotheus',
+    'Tit': 'Titus',
+    'Phlm': 'Philemon',
+    'Hebr': 'Hebräer',
+    'Jak': 'Jakobus',
+    '1Petr': '1. Petrus',
+    '2Petr': '2. Petrus',
+    '1Joh': '1. Johannes',
+    '2Joh': '2. Johannes',
+    '3Joh': '3. Johannes',
+    'Jud': 'Judas',
+    'Offb': 'Offenbarung'
+  };
+
+  const fullBook = bookMap[book] || book; // falls was Neues kommt
+
+  // Query für YouVersion: voller Name + Kapitel/Verse + Lutherbibel 2017
+  const query = encodeURIComponent(`${fullBook} ${rest} Lutherbibel 2017`);
   const url = `https://www.bible.com/search/bible?q=${query}`;
 
   return `

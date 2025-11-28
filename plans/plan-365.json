@@ -304,7 +304,471 @@
   "day": 60,
   "title": "Tag 60",
   "readings": { "morning": "4Mo 23-25", "evening": "Mk 8,1-21" }
-}
+},
+
+     {
+    "day": 61,
+    "title": "Tag 61",
+    "readings": { "morning": "4Mo 26-27", "evening": "Mk 8,22-38" }
+  },
+  {
+    "day": 62,
+    "title": "Tag 62",
+    "readings": { "morning": "4Mo 28-29", "evening": "Mk 9,1-29" }
+  },
+  {
+    "day": 63,
+    "title": "Tag 63",
+    "readings": { "morning": "4Mo 30-31", "evening": "Mk 9,30-50" }
+  },
+  {
+    "day": 64,
+    "title": "Tag 64",
+    "readings": { "morning": "4Mo 32-33", "evening": "Mk 10,1-31" }
+  },
+  {
+    "day": 65,
+    "title": "Tag 65",
+    "readings": { "morning": "4Mo 34-36", "evening": "Mk 10,32-52" }
+  },
+  {
+    "day": 66,
+    "title": "Tag 66",
+    "readings": { "morning": "5Mo 1-2", "evening": "Mk 11,1-19" }
+  },
+  {
+    "day": 67,
+    "title": "Tag 67",
+    "readings": { "morning": "5Mo 3-4", "evening": "Mk 11,20-33" }
+  },
+  {
+    "day": 68,
+    "title": "Tag 68",
+    "readings": { "morning": "5Mo 5-7", "evening": "Mk 12,1-27" }
+  },
+  {
+    "day": 69,
+    "title": "Tag 69",
+    "readings": { "morning": "5Mo 8-10", "evening": "Mk 12,28-44" }
+  },
+  {
+    "day": 70,
+    "title": "Tag 70",
+    "readings": { "morning": "5Mo 11-13", "evening": "Mk 13,1-13" }
+  },
+  {
+    "day": 71,
+    "title": "Tag 71",
+    "readings": { "morning": "5Mo 14-15", "evening": "Mk 13,14-37" }
+  },
+  {
+    "day": 72,
+    "title": "Tag 72",
+    "readings": { "morning": "5Mo 16-17", "evening": "Mk 14,1-26" }
+  },
+  {
+    "day": 73,
+    "title": "Tag 73",
+    "readings": { "morning": "5Mo 18-19", "evening": "Mk 14,27-51" }
+  },
+  {
+    "day": 74,
+    "title": "Tag 74",
+    "readings": { "morning": "5Mo 20-22", "evening": "Mk 14,52-72" }
+  },
+  {
+    "day": 75,
+    "title": "Tag 75",
+    "readings": { "morning": "5Mo 23-25", "evening": "Mk 15,1-20" }
+  },
+  {
+    "day": 76,
+    "title": "Tag 76",
+    "readings": { "morning": "5Mo 26-27", "evening": "Mk 15,21-47" }
+  },
+  {
+    "day": 77,
+    "title": "Tag 77",
+    "readings": { "morning": "5Mo 28-29", "evening": "Lk 1,1-23" }
+  },
+  {
+    "day": 78,
+    "title": "Tag 78",
+    "readings": { "morning": "5Mo 30-31", "evening": "Lk 1,24-56" }
+  },
+  {
+    "day": 79,
+    "title": "Tag 79",
+    "readings": { "morning": "5Mo 32", "evening": "Lk 1,57-80" }
+  },
+  {
+    "day": 80,
+    "title": "Tag 80",
+    "readings": { "morning": "5Mo 33-34", "evening": "Lk 2,1-24" }
+  },
+  {
+    "day": 81,
+    "title": "Tag 81",
+    "readings": { "morning": "Jos 1-3", "evening": "Lk 2,25-52" }
+  },
+  {
+    "day": 82,
+    "title": "Tag 82",
+    "readings": { "morning": "Jos 4-6", "evening": "Lk 3" }
+  },
+  {
+    "day": 83,
+    "title": "Tag 83",
+    "readings": { "morning": "Jos 7-8", "evening": "Lk 4,1-32" }
+  },
+  {
+    "day": 84,
+    "title": "Tag 84",
+    "readings": { "morning": "Jos 9-10", "evening": "Lk 4,33-44" }
+  },
+  {
+    "day": 85,
+    "title": "Tag 85",
+    "readings": { "morning": "Jos 11-13", "evening": "Lk 5,1-16" }
+  },
+  {
+    "day": 86,
+    "title": "Tag 86",
+    "readings": { "morning": "Jos 14-15", "evening": "Lk 5,17-39" }
+  },
+  {
+    "day": 87,
+    "title": "Tag 87",
+    "readings": { "morning": "Jos 16-18", "evening": "Lk 6,1-26" }
+  },
+  {
+    "day": 88,
+    "title": "Tag 88",
+    "readings": { "morning": "Jos 19-20", "evening": "Lk 6,27-49" }
+  },
+  {
+    "day": 89,
+    "title": "Tag 89",
+    "readings": { "morning": "Jos 21-22", "evening": "Lk 7,1-30" }
+  },
+  {
+    "day": 90,
+    "title": "Tag 90",
+    "readings": { "morning": "Jos 23-24", "evening": "Lk 7,31-50" }
+  },
+  {
+    "day": 91,
+    "title": "Tag 91",
+    "readings": { "morning": "Rich 1-2", "evening": "Lk 8,1-21" }
+  },
+   {
+  "day": 92,
+  "title": "Tag 92",
+  "readings": { "morning": "Rich 6-7", "evening": "Lk 8,1-21" }
+},
+{
+  "day": 93,
+  "title": "Tag 93",
+  "readings": { "morning": "Rich 8-9", "evening": "Lk 8,22-56" }
+},
+{
+  "day": 94,
+  "title": "Tag 94",
+  "readings": { "morning": "Rich 10-11", "evening": "Lk 9,1-36" }
+},
+{
+  "day": 95,
+  "title": "Tag 95",
+  "readings": { "morning": "Rich 12-14", "evening": "Lk 9,37-62" }
+},
+{
+  "day": 96,
+  "title": "Tag 96",
+  "readings": { "morning": "Rich 15-17", "evening": "Lk 10,1-24" }
+},
+{
+  "day": 97,
+  "title": "Tag 97",
+  "readings": { "morning": "Rich 18-19", "evening": "Lk 10,25-42" }
+},
+{
+  "day": 98,
+  "title": "Tag 98",
+  "readings": { "morning": "Rich 20-21", "evening": "Lk 11,1-28" }
+},
+{
+  "day": 99,
+  "title": "Tag 99",
+  "readings": { "morning": "Rut 1-4", "evening": "Lk 11,29-54" }
+},
+{
+  "day": 100,
+  "title": "Tag 100",
+  "readings": { "morning": "1Sam 1-3", "evening": "Lk 12,1-34" }
+},
+{
+  "day": 101,
+  "title": "Tag 101",
+  "readings": { "morning": "1Sam 4-6", "evening": "Lk 12,35-59" }
+},
+{
+  "day": 102,
+  "title": "Tag 102",
+  "readings": { "morning": "1Sam 7-9", "evening": "Lk 13,1-21" }
+},
+{
+  "day": 103,
+  "title": "Tag 103",
+  "readings": { "morning": "1Sam 10-12", "evening": "Lk 13,22-35" }
+},
+{
+  "day": 104,
+  "title": "Tag 104",
+  "readings": { "morning": "1Sam 13-14", "evening": "Lk 14,1-24" }
+},
+{
+  "day": 105,
+  "title": "Tag 105",
+  "readings": { "morning": "1Sam 15-16", "evening": "Lk 14,25-35" }
+},
+{
+  "day": 106,
+  "title": "Tag 106",
+  "readings": { "morning": "1Sam 17-18", "evening": "Lk 15,1-10" }
+},
+{
+  "day": 107,
+  "title": "Tag 107",
+  "readings": { "morning": "1Sam 19-21", "evening": "Lk 15,11-32" }
+},
+{
+  "day": 108,
+  "title": "Tag 108",
+  "readings": { "morning": "1Sam 22-24", "evening": "Lk 16,1-18" }
+},
+{
+  "day": 109,
+  "title": "Tag 109",
+  "readings": { "morning": "1Sam 25-26", "evening": "Lk 16,19-31" }
+},
+{
+  "day": 110,
+  "title": "Tag 110",
+  "readings": { "morning": "1Sam 27-29", "evening": "Lk 17,1-19" }
+},
+{
+  "day": 111,
+  "title": "Tag 111",
+  "readings": { "morning": "1Sam 30-31", "evening": "Lk 17,20-37" }
+},
+{
+  "day": 112,
+  "title": "Tag 112",
+  "readings": { "morning": "2Sam 1-3", "evening": "Lk 18,1-17" }
+},
+{
+  "day": 113,
+  "title": "Tag 113",
+  "readings": { "morning": "2Sam 4-6", "evening": "Lk 18,18-43" }
+},
+{
+  "day": 114,
+  "title": "Tag 114",
+  "readings": { "morning": "2Sam 7-9", "evening": "Lk 19,1-28" }
+},
+{
+  "day": 115,
+  "title": "Tag 115",
+  "readings": { "morning": "2Sam 10-12", "evening": "Lk 19,29-48" }
+},
+{
+  "day": 116,
+  "title": "Tag 116",
+  "readings": { "morning": "2Sam 13-14", "evening": "Lk 20,1-26" }
+},
+{
+  "day": 117,
+  "title": "Tag 117",
+  "readings": { "morning": "2Sam 15-16", "evening": "Lk 20,27-47" }
+},
+{
+  "day": 118,
+  "title": "Tag 118",
+  "readings": { "morning": "2Sam 17-18", "evening": "Lk 21,1-19" }
+},
+{
+  "day": 119,
+  "title": "Tag 119",
+  "readings": { "morning": "2Sam 19-20", "evening": "Lk 21,20-38" }
+},
+{
+  "day": 120,
+  "title": "Tag 120",
+  "readings": { "morning": "2Sam 21-22", "evening": "Lk 22,1-30" }
+},
+{
+  "day": 121,
+  "title": "Tag 121",
+  "readings": { "morning": "2Sam 23-24", "evening": "Lk 22,31-53" }
+},
+
+  {
+  "day": 122,
+  "title": "Tag 122",
+  "readings": { "morning": "1Kön 1-2", "evening": "Lk 22,54-71" }
+},
+{
+  "day": 123,
+  "title": "Tag 123",
+  "readings": { "morning": "1Kön 3-5", "evening": "Lk 23,1-26" }
+},
+{
+  "day": 124,
+  "title": "Tag 124",
+  "readings": { "morning": "1Kön 6-7", "evening": "Lk 23,27-38" }
+},
+{
+  "day": 125,
+  "title": "Tag 125",
+  "readings": { "morning": "1Kön 8-9", "evening": "Lk 23,39-56" }
+},
+{
+  "day": 126,
+  "title": "Tag 126",
+  "readings": { "morning": "1Kön 10-11", "evening": "Lk 24,1-35" }
+},
+{
+  "day": 127,
+  "title": "Tag 127",
+  "readings": { "morning": "1Kön 12-13", "evening": "Lk 24,36-53" }
+},
+{
+  "day": 128,
+  "title": "Tag 128",
+  "readings": { "morning": "1Kön 14-15", "evening": "Joh 1,1-28" }
+},
+{
+  "day": 129,
+  "title": "Tag 129",
+  "readings": { "morning": "1Kön 16-18", "evening": "Joh 1,29-51" }
+},
+{
+  "day": 130,
+  "title": "Tag 130",
+  "readings": { "morning": "1Kön 19-20", "evening": "Joh 2" }
+},
+{
+  "day": 131,
+  "title": "Tag 131",
+  "readings": { "morning": "1Kön 21-22", "evening": "Joh 3,1-21" }
+},
+{
+  "day": 132,
+  "title": "Tag 132",
+  "readings": { "morning": "2Kön 1-3", "evening": "Joh 3,22-36" }
+},
+{
+  "day": 133,
+  "title": "Tag 133",
+  "readings": { "morning": "2Kön 4-5", "evening": "Joh 4,1-30" }
+},
+{
+  "day": 134,
+  "title": "Tag 134",
+  "readings": { "morning": "2Kön 6-8", "evening": "Joh 4,31-54" }
+},
+{
+  "day": 135,
+  "title": "Tag 135",
+  "readings": { "morning": "2Kön 9-11", "evening": "Joh 5,1-24" }
+},
+{
+  "day": 136,
+  "title": "Tag 136",
+  "readings": { "morning": "2Kön 12-14", "evening": "Joh 5,25-47" }
+},
+{
+  "day": 137,
+  "title": "Tag 137",
+  "readings": { "morning": "2Kön 15-17", "evening": "Joh 6,1-21" }
+},
+{
+  "day": 138,
+  "title": "Tag 138",
+  "readings": { "morning": "2Kön 18-19", "evening": "Joh 6,22-44" }
+},
+{
+  "day": 139,
+  "title": "Tag 139",
+  "readings": { "morning": "2Kön 20-22", "evening": "Joh 6,45-71" }
+},
+{
+  "day": 140,
+  "title": "Tag 140",
+  "readings": { "morning": "2Kön 23-25", "evening": "Joh 7,1-31" }
+},
+{
+  "day": 141,
+  "title": "Tag 141",
+  "readings": { "morning": "1Chr 1-2", "evening": "Joh 7,32-53" }
+},
+{
+  "day": 142,
+  "title": "Tag 142",
+  "readings": { "morning": "1Chr 3-5", "evening": "Joh 8,1-20" }
+},
+{
+  "day": 143,
+  "title": "Tag 143",
+  "readings": { "morning": "1Chr 6-7", "evening": "Joh 8,21-36" }
+},
+{
+  "day": 144",
+  "title": "Tag 144",
+  "readings": { "morning": "1Chr 8-10", "evening": "Joh 8,37-59" }
+},
+{
+  "day": 145,
+  "title": "Tag 145",
+  "readings": { "morning": "1Chr 11-12", "evening": "Joh 9,1-23" }
+},
+{
+  "day": 146,
+  "title": "Tag 146",
+  "readings": { "morning": "1Chr 13-15", "evening": "Joh 9,24-41" }
+},
+{
+  "day": 147,
+  "title": "Tag 147",
+  "readings": { "morning": "1Chr 16-17", "evening": "Joh 10,1-21" }
+},
+{
+  "day": 148,
+  "title": "Tag 148",
+  "readings": { "morning": "1Chr 18-20", "evening": "Joh 10,22-42" }
+},
+{
+  "day": 149,
+  "title": "Tag 149",
+  "readings": { "morning": "1Chr 21-23", "evening": "Joh 11,1-17" }
+},
+{
+  "day": 150,
+  "title": "Tag 150",
+  "readings": { "morning": "1Chr 24-25", "evening": "Joh 11,18-46" }
+},
+{
+  "day": 151,
+  "title": "Tag 151",
+  "readings": { "morning": "1Chr 26-27", "evening": "Joh 11,47-57" }
+},
+{
+  "day": 152,
+  "title": "Tag 152",
+  "readings": { "morning": "1Chr 28-29", "evening": "Joh 12,1-19" }
+},
+
+   
    
 ]
   

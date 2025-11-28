@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <title>Bibel Leseplan – 1 Jahr</title>
@@ -7,47 +7,95 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="header">
-    <h1>Bibel Leseplan – 1 Jahr</h1>
-    <p class="subtitle">Ein Jahresplan für dein tägliches Bibellesen.</p>
+  <header class="hero">
+    <div class="top-bar">
+      <div class="brand">
+        <span class="brand-mark">365</span>
+        <div class="brand-text">
+          <p class="eyebrow" data-i18n="eyebrow">Jahresplan</p>
+          <h1 id="hero-title" data-i18n="title">Bibel Leseplan – 1 Jahr</h1>
+        </div>
+      </div>
+      <div class="controls">
+        <label class="control">
+          <span data-i18n="language">Sprache</span>
+          <select id="language-select" aria-label="Language selector">
+            <option value="de">Deutsch</option>
+            <option value="en">English</option>
+            <option value="id">Bahasa Indonesia</option>
+          </select>
+        </label>
+        <button id="theme-toggle" class="pill" type="button" aria-pressed="false">
+          <span class="icon" aria-hidden="true">🌞</span>
+          <span id="theme-label" data-i18n="lightMode">Mode Terang</span>
+        </button>
+      </div>
+    </div>
+    <p class="subtitle" data-i18n="subtitle">Bacaan pagi dari Perjanjian Lama &amp; malam dari Perjanjian Baru.</p>
+    <div class="hero-meta">
+      <span class="pill subtle" id="year-indicator"></span>
+      <span class="pill subtle" data-i18n="calendarNote">Tanggal mengikuti kalender asli (Februari tanpa tanggal 30).</span>
+    </div>
   </header>
 
-  <main class="main">
-    <!-- Optional: Beschreibung zum Plan -->
-    <section class="card">
-      <p id="plan-description"></p>
+  <main class="plan">
+    <section class="card highlight">
+      <p id="plan-description" data-i18n="planDescription"></p>
     </section>
 
-    <!-- HEUTE -->
-    <section class="card">
-      <h2 id="day-title">Tag …</h2>
-      <p id="day-info"></p>
+    <section class="card today-card">
+      <div class="card-header">
+        <div>
+          <p class="eyebrow" data-i18n="todayLabel">Hari ini</p>
+          <h2 id="day-title">Tag …</h2>
+          <p id="day-info" class="muted"></p>
+        </div>
+        <div class="progress-chip">
+          <span class="icon" aria-hidden="true">⏳</span>
+          <span id="progress-text"></span>
+        </div>
+      </div>
 
-      <div id="readings"></div>
+      <div id="readings" class="reading-list"></div>
 
-      <button id="mark-done-btn" class="btn-primary">
-        Als gelesen markieren
-      </button>
-
-      <p id="status-text"></p>
+      <div class="actions">
+        <button id="mark-done-btn" class="btn-primary" type="button" data-i18n="markRead">Als gelesen markieren</button>
+        <p id="status-text" class="status muted"></p>
+      </div>
     </section>
 
-    <!-- FORTSCHRITT -->
     <section class="card">
-      <h3>Dein Fortschritt</h3>
-      <p id="progress-text"></p>
+      <div class="section-header">
+        <div>
+          <p class="eyebrow" data-i18n="ambience">Temani bacaan</p>
+          <h3 data-i18n="musicTitle">Musik latar &amp; suasana</h3>
+        </div>
+      </div>
+      <div class="audio-controls">
+        <div class="control">
+          <label for="track-select" data-i18n="musicLabel">Pilih musik</label>
+          <select id="track-select"></select>
+        </div>
+        <div class="buttons">
+          <button id="play-toggle" class="pill" type="button">
+            <span class="icon" aria-hidden="true">▶️</span>
+            <span id="play-label" data-i18n="play">Putar</span>
+          </button>
+        </div>
+      </div>
+      <div class="audio-meta">
+        <p class="muted" id="now-playing"></p>
+        <label class="volume" for="volume" data-i18n="volume">Volume</label>
+        <input type="range" id="volume" min="0" max="1" step="0.01" value="0.4">
+      </div>
     </section>
   </main>
 
   <footer class="footer">
-    <p>
-      Für den Bibeltext benutzen wir die YouVersion Bible App (Lutherbibel 2017).
-    </p>
+    <p data-i18n="footer">Für den Bibeltext benutzen wir die YouVersion Bible App (Lutherbibel 2017).</p>
   </footer>
 
-  <!-- Script HARUS di bagian paling bawah body -->
+  <audio id="bg-audio" loop preload="none"></audio>
   <script src="js/app.js"></script>
 </body>
-
 </html>
-

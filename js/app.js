@@ -82,7 +82,7 @@ function renderToday(plan, progress) {
     year: 'numeric'
   });
 
-  safeSetText('day-title', dayEntry.title || `Tag ${dayEntry.day}`);
+  safeSetText('day-title', dayEntry.title);
   safeSetText('day-info', todayStr);
 
   const r = dayEntry.readings || {};

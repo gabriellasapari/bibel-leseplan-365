@@ -1,1 +1,146 @@
-/* Styles will go here */
+/* Basic layout */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f3f4f6;
+  color: #111827;
+}
+
+/* Header */
+.app-header {
+  text-align: center;
+  padding: 2.5rem 1rem 2rem;
+  background: linear-gradient(135deg, #2563eb, #1e3a8a);
+  color: #f9fafb;
+}
+
+.app-header h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
+  letter-spacing: 0.03em;
+}
+
+.app-header .subtitle {
+  margin: 0;
+  font-size: 0.95rem;
+  opacity: 0.95;
+}
+
+/* Main layout */
+.plan {
+  max-width: 720px;
+  margin: 1.5rem auto 3rem;
+  padding: 0 1rem;
+}
+
+/* Card style */
+.card {
+  background: #ffffff;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.9rem;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.card h3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+}
+
+/* Text */
+#day-info {
+  margin-top: 0;
+  font-size: 0.95rem;
+  color: #6b7280;
+}
+
+#plan-description {
+  margin: 0;
+}
+
+.status-text {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+}
+
+/* Readings list */
+#readings ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.25rem 0 0.5rem;
+}
+
+#readings li {
+  margin-bottom: 0.25rem;
+}
+
+#readings strong {
+  font-weight: 600;
+}
+
+/* Button */
+.primary-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  border: none;
+  background: #2563eb;
+  color: #f9fafb;
+  font-size: 0.9rem;
+  cursor: pointer;
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.35);
+  transition: transform 0.08s ease-out, box-shadow 0.08s ease-out, background 0.15s;
+}
+
+.primary-btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(37, 99, 235, 0.45);
+}
+
+.primary-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 5px 12px rgba(37, 99, 235, 0.35);
+}
+
+/* Progress */
+#progress-text {
+  margin-top: 0.25rem;
+  font-size: 0.95rem;
+}
+
+/* Footer */
+.app-footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
+
+/* Small screen tweaks */
+@media (max-width: 480px) {
+  .app-header h1 {
+    font-size: 1.6rem;
+  }
+
+  .card {
+    padding: 1rem 1.1rem;
+  }
+}
+

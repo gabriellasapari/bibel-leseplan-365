@@ -75,15 +75,21 @@ function renderToday(plan, progress) {
   currentDayIndex = index;
   const dayEntry = plan.days[index];
 
-  const todayStr = new Date().toLocaleDateString('de-AT', {
-    weekday: 'long',
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric'
-  });
+  // Tanggal rencana: start dari JSON + (dayIndex - 1)
+const planStartDate = new Date(plan.start); // mis. 2026-01-01
+const planDate = new Date(planStartDate);
+planDate.setDate(planStartDate.getDate() + (dayEntry.day - 1));
 
-  safeSetText('day-title', dayEntry.title);
-  safeSetText('day-info', todayStr);
+// Format tanggal sesuai Jerman/Austria, tanpa tahun
+const planDateStr = planDate.toLocaleDateString('de-AT', {
+  weekday: 'long',
+  day: 'numeric',
+  month: 'long'
+});
+
+// Judul & info hari
+safeSetText('day-title', dayEntry.title);       // hanya "Tag 1", "Tag 2", ...
+safeSetText('day-info', planDateStr);          // z.B. "Donnerstag, 1. Jänner"
 
   const r = dayEntry.readings || {};
   const morning = r.morning || '–';

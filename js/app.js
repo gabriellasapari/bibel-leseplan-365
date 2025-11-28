@@ -114,15 +114,15 @@ safeSetText('day-info', planDateStr);          // z.B. "Donnerstag, 1. Jänner"
   const evening = r.evening || '–';
 
   safeSetHTML(
-    'readings',
-    `
-      <h3>Lesung heute:</h3>
-      <ul>
-        <li><strong>Morgens:</strong> ${morning}</li>
-        <li><strong>Abends:</strong> ${evening}</li>
-      </ul>
-    `
-  );
+  'readings',
+  `
+    <h3>Lesung heute:</h3>
+    <ul>
+      <li><strong>Morgens:</strong> ${buildYouVersionLink(morning)}</li>
+      <li><strong>Abends:</strong> ${buildYouVersionLink(evening)}</li>
+    </ul>
+  `
+);
 
   const done = progress.completedDays.includes(dayEntry.day);
 

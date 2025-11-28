@@ -3,6 +3,18 @@ const STORAGE_KEY = 'gideon-365-progress';
 
 let currentDayIndex = null;
 
+// Helper: textContent aman
+function safeSetText(id, value) {
+  const el = document.getElementById(id);
+  if (el) el.textContent = value;
+}
+
+// Helper: innerHTML aman
+function safeSetHTML(id, value) {
+  const el = document.getElementById(id);
+  if (el) el.innerHTML = value;
+}
+
 // Plan laden
 async function loadPlan() {
   const res = await fetch(PLAN_URL);
@@ -25,39 +37,39 @@ function getDayIndexFromDate(startDateString) {
   const start = new Date(startDateString);
   const today = new Date();
 
-  // Uhrzeit egal machen
   start.setHours(0, 0, 0, 0);
   today.setHours(0, 0, 0, 0);
 
   const diff = today - start;
   const diffDays = Math.floor(diff / (1000 * 60 * 60 * 24));
 
-  // Vor dem Startdatum immer Tag 0 (also Tag 1) anzeigen
   return diffDays < 0 ? 0 : diffDays;
 }
 
 // Heutigen Tag anhand des Plans darstellen
 function renderToday(plan, progress) {
-  document.getElementById('plan-description').textContent =
-    plan.description || '';
+  // Beschreibung nur setzen, wenn Element da
+  if (plan.description) {
+    safeSetText('plan-description', plan.description);
+  }
 
   const totalDays = plan.days.length;
   let index = getDayIndexFromDate(plan.start);
 
-  // Wenn wir über das Ende des Plans hinaus sind → Plan beendet
   if (index >= totalDays) {
     currentDayIndex = null;
 
-    document.getElementById('day-title').textContent = 'Plan beendet 🎉';
-    document.getElementById('day-info').textContent = '';
-    document.getElementById('readings').innerHTML = '';
-    document.getElementById('status-text').textContent = '';
-    document.getElementById('progress-text').textContent =
-      `Abgeschlossen: ${progress.completedDays.length} von ${totalDays} Tagen`;
+    safeSetText('day-title', 'Plan beendet 🎉');
+    safeSetText('day-info', '');
+    safeSetHTML('readings', '');
+    safeSetText('status-text', '');
+    safeSetText(
+      'progress-text',
+      `Abgeschlossen: ${progress.completedDays.length} von ${totalDays} Tagen`
+    );
     return;
   }
 
-  // Index im gültigen Bereich halten
   if (index < 0) index = 0;
 
   currentDayIndex = index;
@@ -70,36 +82,45 @@ function renderToday(plan, progress) {
     year: 'numeric'
   });
 
-  document.getElementById('day-title').textContent =
-    `Tag ${dayEntry.day}: ${dayEntry.title}`;
-  document.getElementById('day-info').textContent = todayStr;
+  safeSetText('day-title', `Tag ${dayEntry.day}: ${dayEntry.title}`);
+  safeSetText('day-info', todayStr);
 
   const r = dayEntry.readings || {};
   const morning = r.morning || '–';
   const evening = r.evening || '–';
 
-  document.getElementById('readings').innerHTML = `
-    <h3>Lesung heute:</h3>
-    <ul>
-      <li><strong>Morgens:</strong> ${morning}</li>
-      <li><strong>Abends:</strong> ${evening}</li>
-    </ul>
-  `;
+  safeSetHTML(
+    'readings',
+    `
+      <h3>Lesung heute:</h3>
+      <ul>
+        <li><strong>Morgens:</strong> ${morning}</li>
+        <li><strong>Abends:</strong> ${evening}</li>
+      </ul>
+    `
+  );
 
   const done = progress.completedDays.includes(dayEntry.day);
 
-  document.getElementById('status-text').textContent =
+  safeSetText(
+    'status-text',
     done
       ? '✅ Dieser Tag ist schon als gelesen markiert.'
-      : 'Noch nicht als gelesen markiert.';
+      : 'Noch nicht als gelesen markiert.'
+  );
 
-  document.getElementById('progress-text').textContent =
-    `Abgeschlossen: ${progress.completedDays.length} von ${totalDays} Tagen`;
+  safeSetText(
+    'progress-text',
+    `Abgeschlossen: ${progress.completedDays.length} von ${totalDays} Tagen`
+  );
 }
 
 // Button-Logik: Tag als gelesen markieren
 function setupButton(plan, progress) {
-  const btn = document.getElementById('mark-done-btn');
+  // hier keine Fehlermeldung, wenn der Button eine andere ID hat
+  const btn =
+    document.getElementById('mark-done-btn') ||
+    document.getElementById('mark-done');
 
   if (!btn) return;
 
@@ -113,20 +134,32 @@ function setupButton(plan, progress) {
       progress.completedDays.push(dayNumber);
       saveProgress(progress);
 
-      document.getElementById('status-text').textContent =
-        '✅ Als gelesen markiert.';
-      document.getElementById('progress-text').textContent =
-        `Abgeschlossen: ${progress.completedDays.length} von ${plan.days.length} Tagen`;
+      safeSetText('status-text', '✅ Als gelesen markiert.');
+      safeSetText(
+        'progress-text',
+        `Abgeschlossen: ${progress.completedDays.length} von ${plan.days.length} Tagen`
+      );
     }
   });
 }
 
 // Initialisierung
 async function init() {
-  const plan = await loadPlan();
-  const progress = loadProgress();
-  renderToday(plan, progress);
-  setupButton(plan, progress);
+  try {
+    const plan = await loadPlan();
+    const progress = loadProgress();
+    renderToday(plan, progress);
+    setupButton(plan, progress);
+  } catch (err) {
+    console.error(err);
+    safeSetText('day-title', 'Fehler beim Laden des Bibelleseplans 😔');
+    safeSetText('day-info', '');
+    safeSetHTML(
+      'readings',
+      '<p>Bitte prüfe die Datei <code>plans/plan-365.json</code>.</p>'
+    );
+  }
 }
 
 document.addEventListener('DOMContentLoaded', init);
+

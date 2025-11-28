@@ -1,3 +1,21 @@
+// ---------------------------
+// Helper: Build YouVersion Link
+// ---------------------------
+function buildYouVersionLink(ref) {
+  if (!ref || ref === '-' || typeof ref !== 'string') return '-';
+
+  const cleaned = ref.trim();
+  const query = encodeURIComponent(cleaned.replace(/\s+/g, ' '));
+  const url = `https://www.bible.com/search/bible?q=${query}`;
+
+  return `
+    <a href="${url}" target="_blank" rel="noopener noreferrer" class="yv-link">
+      <span class="yv-ref">${cleaned}</span>
+      <span class="yv-pill">YouVersion</span>
+    </a>
+  `;
+}
+
 const PLAN_URL = 'plans/plan-365.json';
 const STORAGE_KEY = 'gideon-365-progress';
 

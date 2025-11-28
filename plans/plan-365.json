@@ -3,8 +3,7 @@
   "name": "Gideon Bibelleseplan – 1 Jahr",
   "description": "Bibel lesen in einem Jahr (Morgens & Abends) – Gideon Plan.",
   "start": "2026-01-01",
-  "days": 
- [
+  "days":[
   {
     "day": 1,
     "title": "Tag 1",
@@ -305,8 +304,7 @@
   "title": "Tag 60",
   "readings": { "morning": "4Mo 23-25", "evening": "Mk 8,1-21" }
 },
-
-     {
+{
     "day": 61,
     "title": "Tag 61",
     "readings": { "morning": "4Mo 26-27", "evening": "Mk 8,22-38" }

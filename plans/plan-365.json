@@ -1,3 +1,35 @@
 {
-  "days": []
+  "id": "bibeljahr-1",
+  "name": "Bibel Leseplan – 1 Jahr",
+  "description": "Ein einfacher Bibelleseplan für 1 Jahr.",
+  "start": "2026-01-01",
+  "days": [
+    {
+      "day": 1,
+      "title": "Am Anfang",
+      "readings": {
+        "ot": ["1. Mose 1"],
+        "nt": ["Matthäus 1"],
+        "ps": ["Psalm 1"]
+      }
+    },
+    {
+      "day": 2,
+      "title": "Gottes gute Schöpfung",
+      "readings": {
+        "ot": ["1. Mose 2"],
+        "nt": ["Matthäus 2"],
+        "ps": ["Psalm 2"]
+      }
+    },
+    {
+      "day": 3,
+      "title": "Der Sündenfall",
+      "readings": {
+        "ot": ["1. Mose 3"],
+        "nt": ["Matthäus 3"],
+        "ps": ["Psalm 3"]
+      }
+    }
+  ]
 }

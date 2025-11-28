@@ -45,10 +45,28 @@ function getReadingsForDay(dayNumber) {
 function renderToday(plan, progress) {
   document.getElementById('plan-description').textContent = plan.description;
 
-  const index = getDayIndexFromDate(plan.start);
-  currentDayIndex = index;
+// Index Tag ab Startdatum berechnen
+const index = getDayIndexFromDate(plan.start);
+currentDayIndex = index;
 
-  const dayEntry = plan.days[index];
+// Tag-Nummer (1–365)
+const dayNumber = index + 1;
+const totalDays = plan.totalDays || 365;
+
+if (dayNumber < 1 || dayNumber > totalDays) {
+  document.getElementById('day-title').textContent = 'Plan beendet 🎉';
+  document.getElementById('day-info').textContent = '';
+  document.getElementById('readings').innerHTML = '';
+  document.getElementById('status-text').textContent = '';
+  return;
+}
+
+// Tag-Daten automatisch erzeugen
+const dayEntry = {
+  day: dayNumber,
+  title: `Tag ${dayNumber}`,
+  readings: getReadingsForDay(dayNumber)
+};
 
   if (!dayEntry) {
     document.getElementById('day-title').textContent = 'Plan beendet 🎉';

@@ -30,6 +30,18 @@ function getDayIndexFromDate(startDateString) {
   return diffDays < 0 ? 0 : diffDays;
 }
 
+function getReadingsForDay(dayNumber) {
+  // Hier kannst du später echte Bibelstellen definieren.
+  // Für jetzt benutzen wir sinnvolle Platzhalter + echten Psalm.
+  const psalm = ((dayNumber - 1) % 150) + 1;
+
+  return {
+    ot: [`Altes Testament – Tag ${dayNumber}`],
+    nt: [`Neues Testament – Tag ${dayNumber}`],
+    ps: [`Psalm ${psalm}`]
+  };
+}
+
 function renderToday(plan, progress) {
   document.getElementById('plan-description').textContent = plan.description;
 
